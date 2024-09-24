@@ -1,10 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
-import './index.css'
+import DropdownMenu from './DropdownMenu.jsx'
+
+const options = [
+  { value: 'option1', label: 'tata' },
+  { value: 'option2', label: 'tete' },
+  { value: 'option3', label: 'titi' },
+  { value: 'option4', label: 'toto' }
+];
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <DropdownMenu options={options}/>
   </StrictMode>,
 )
