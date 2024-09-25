@@ -2,12 +2,12 @@
   "name": "@gmaxdev/dropdown-plugin",
   "version": "0.1.4",
   "description": "A simple package for creating a dropdown menu",
-  "main": "dist/index.js",
+  "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
   "exports": {
     ".": {
       "import": "./dist/index.esm.js", 
-      "require": "./dist/index.js"
+      "require": "./dist/index.umd.js"
     }
   },
   "type": "module",
