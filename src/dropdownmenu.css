@@ -32,12 +32,14 @@
 }
 
 .select-option {
+  z-index: 10;
   font-size: 1em;
   line-height: 1.5;
   padding: 8px 10px;
   cursor: pointer;
   width: 100%;
   box-sizing: border-box;
+  background-color: #fff;
 }
 
 .select-option:hover {

@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 import { useState } from 'react';
-import './dropdownmenu.css'; // Assurez-vous d'importer le fichier CSS
+import './dropdownmenu.css';
 
 const CustomSelect = ({ options, placeholder = "Select an option" }) => {
   const [selectedOption, setSelectedOption] = useState(null);

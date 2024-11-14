@@ -6,6 +6,8 @@ const options = [
   { value: 'option1', label: 'tata' },
   { value: 'option2', label: 'tete' },
   { value: 'option3', label: 'titi' },
+  { value: 'option3', label: 'titi' },
+  { value: 'option3', label: 'titi' },
   { value: 'option4', label: 'toto' }
 ];
 
