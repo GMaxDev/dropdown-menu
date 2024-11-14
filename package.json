@@ -1,6 +1,6 @@
 {
   "name": "@gmaxdev/dropdown-plugin",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "A simple package for creating a dropdown menu",
   "exports": {
     ".": {
